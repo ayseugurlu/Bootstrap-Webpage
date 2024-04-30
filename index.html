@@ -19,6 +19,11 @@
       referrerpolicy="no-referrer"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -37,31 +42,31 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"> </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="services"
+              <a class="nav-link active" aria-current="page" href="#services"
                 >Services</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" aria-disabled="true" href="aboutus"
+              <a class="nav-link" aria-disabled="true" href="#about"
                 >About Us</a
               >
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" aria-disabled="true" href="staff">Staff</a>
+              <a class="nav-link" aria-disabled="true" href="#staff">Staff</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" aria-disabled="true" href="contactus"
+              <a class="nav-link" aria-disabled="true" href="#contact"
                 >Contact Us</a
               >
             </li>
@@ -78,7 +83,7 @@
         <p class="fs-1 fw-lighter">The IT Career of Your Dreams Starts Here!</p>
         <p class="logo">AYSE Tech</p>
         <button class="btn btn-danger px-4 py-2 fs-5">
-          <a class="text-white text-decoration-none" href="services"
+          <a class="text-white text-decoration-none" href="#services"
             >Our services</a
           >
         </button>
@@ -89,7 +94,7 @@
     <!--       SERVICES        -->
     <!-- --------------------- -->
 
-    <div class="services container text-center mt-5" id="services">
+    <div id="services" class="services container text-center mt-5 py-5">
       <div class="row">
         <div class="col">
           <h1 class="display-2">Services</h1>
@@ -131,9 +136,9 @@
     <!-- --------------------- -->
     <!--       PORTFOLIO       -->
     <!-- --------------------- -->
-    <div class="portfolio container text-center">
+    <div id="portfolio" class="portfolio container-fluid text-center mt-5 py-5">
       <div class="row">
-        <h1>Portfolio</h1>
+        <h1 class="display-2">Portfolio</h1>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
           voluptate eius repellendus. Sequi doloribus nobis doloremque aut quod
@@ -141,9 +146,9 @@
         </p>
       </div>
 
-      <div class="row pt-5 gx-5 ms-5">
-        <div class="col col-md-4">
-          <div class="card" style="width: 18rem">
+      <div class="row pt-5 g-4 m-5">
+        <div class="col-sm-12 col-md-4">
+          <div class="card">
             <img
               src="https://clarusway.com/wp-content/uploads/elementor/thumbs/v1-aws-solution-architechdevops-engineering-prp8n4giyz4w5x35hfw80el486a6lqd6oi60i0n87c.jpg"
               class="card-img-top"
@@ -159,8 +164,8 @@
           </div>
         </div>
 
-        <div class="col col-md-4">
-          <div class="card" style="width: 18rem">
+        <div class="col-sm-12 col-md-4">
+          <div class="card">
             <img
               src="https://clarusway.com/wp-content/uploads/elementor/thumbs/Aws-Solution-Architech-1-prp8pzurur2fn0wypol6mohtkk4k4frnqpxfagdx6w.jpg"
               class="card-img-top"
@@ -175,8 +180,8 @@
           </div>
         </div>
 
-        <div class="col col-md-4">
-          <div class="card" style="width: 18rem">
+        <div class="col-sm-12 col-md-4">
+          <div class="card">
             <img
               src="https://clarusway.com/wp-content/uploads/elementor/thumbs/v1-All-Courses-prp8n6c7cn7gt50f6gph5e41ey0x14kncrgzgkkfuw.jpg"
               class="card-img-top"
@@ -191,8 +196,8 @@
           </div>
         </div>
 
-        <div class="col col-md-4">
-          <div class="card" style="width: 18rem">
+        <div class="col-sm-12 col-md-4">
+          <div class="card">
             <img
               src="https://clarusway.com/wp-content/uploads/elementor/thumbs/v1-Data-analytics-prp8n3ios53lub4imxhlfwtnmsete19gcdij0qomdk.jpg"
               class="card-img-top"
@@ -207,8 +212,8 @@
           </div>
         </div>
 
-        <div class="col col-md-4">
-          <div class="card" style="width: 18rem">
+        <div class="col-sm-12 col-md-4">
+          <div class="card">
             <img
               src="https://clarusway.com/wp-content/uploads/elementor/thumbs/v1-Software-Developer-prp8n1n0eh117378xwocaxaqg0o2yn1zo47k26req0.jpg"
               class="card-img-top"
@@ -223,8 +228,8 @@
           </div>
         </div>
 
-        <div class="col col-md-4">
-          <div class="card col col-3 col-md-4" style="width: 18rem">
+        <div class="col-sm-12 col-md-4">
+          <div class="card">
             <img
               src="https://clarusway.com/wp-content/uploads/2022/11/sdet.jpg"
               class="card-img-top"
@@ -245,7 +250,224 @@
     <!--         ABOUT         -->
     <!-- --------------------- -->
 
-    
+    <div id="about" class="about container text-center mt-5 p-5">
+      <div class="row">
+        <div class="col">
+          <h1 class="display-2">About Us</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
+            delectus.
+          </p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <p class="text-start">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ma
+            class="text-start"gnam quasi veritatis suscipit tempore non.
+          </p>
+          <p class="text-start">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ma
+            class="text-start"gnam quasi veritatis suscipit tempore non.
+          </p>
+          <p class="text-start">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ma
+            class="text-start"gnam quasi veritatis suscipit tempore non.
+          </p>
+          <p class="text-start">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+            magnam quasi veritatis suscipit tempore non.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="./img/aboutus.jpeg" alt="" width="100%" />
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------- -->
+    <!--       OUR TEAM        -->
+    <!-- --------------------- -->
+    <div id="staff" class="team container-fluid text-center p-5">
+      <div class="row">
+        <h1>Our Team</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          minus quidem asperiores expedita culpa quibusdam quo adipisci ullam
+          illo quas?
+        </p>
+      </div>
+
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-4 col-lg-3 gy-3">
+          <div class="team-members">
+            <img
+              src="https://ca.slack-edge.com/T03T3AE55TL-U04E4MMSXQE-fc59bf758727-192"
+              alt=""
+              class="rounded-circle mb-3"
+            />
+            <h4>Mark Madisson</h4>
+            <p>Web Developer</p>
+            <a class="social mx-2" href="#"><i class="bi bi-facebook"></i></a>
+            <a class="social mx-2" href="#"><i class="bi bi-twitter-x"></i></a>
+            <a class="social mx-2" href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3 gy-3">
+          <div class="team-members">
+            <img
+              src="https://ca.slack-edge.com/T03T3AE55TL-U041JG5MUHY-ab1854ae747b-192"
+              alt=""
+              class="rounded-circle mb-3"
+            />
+            <h4>Noah Adams</h4>
+            <p>Full Stack Developer</p>
+            <a class="social mx-2" href="#"><i class="bi bi-facebook"></i></a>
+            <a class="social mx-2" href="#"><i class="bi bi-twitter-x"></i></a>
+            <a class="social mx-2" href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3 gy-3">
+          <div class="team-members">
+            <img
+              src="https://ca.slack-edge.com/T03T3AE55TL-U04DWP8MU15-784cee4462b4-192"
+              alt=""
+              class="rounded-circle mb-3"
+            />
+            <h4>Harvey Watson</h4>
+            <p>Mobile Developer</p>
+            <a class="social mx-2" href="#"><i class="bi bi-facebook"></i></a>
+            <a class="social mx-2" href="#"><i class="bi bi-twitter-x"></i></a>
+            <a class="social mx-2" href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------- -->
+    <!--        CLIENT         -->
+    <!-- --------------------- -->
+
+    <div class="client container-fluid pt-5 pb-5">
+      <div class="container text-center">
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col">
+            <a href="www.google.com">
+              <img
+                src="https://clarusway.com/wp-content/uploads/2022/06/Google-300x124.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col">
+            <a href="www.ibm.com">
+              <img
+                src="https://clarusway.com/wp-content/uploads/2022/11/ibm-logo-300x146.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col">
+            <a href="www.amazon.com">
+              <img
+                src="https://clarusway.com/wp-content/uploads/2022/11/amazon-logo-e1667623032606-300x142.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col">
+            <a href="www.ingbank.com">
+              <img
+                src="https://clarusway.com/wp-content/uploads/2022/10/ING-Bank.png-300x147.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col">
+            <a href="www.siemens.com">
+              <img
+                src="https://clarusway.com/wp-content/uploads/2023/03/siemens-300x142.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------- -->
+    <!--      CONTACT US       -->
+    <!-- --------------------- -->
+
+    <div class="contact container-fluid pt-5 pb-5">
+      <div class="container">
+        <h2 class="display-3 text-center text-white" id="contact">
+          Contact Us
+        </h2>
+        <p class="text-center text-white">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias,
+          expedita!
+        </p>
+        <div class="row pb-3">
+          <div class="col-md-6">
+            <input
+              type="text"
+              class="form-control mb-3 fs-5 p-2"
+              id="exampleFormControlInput1"
+              placeholder="Name"
+            />
+            <input
+              type="email"
+              class="form-control mb-3 fs-5 p-2"
+              id="exampleFormControlInput1"
+              placeholder="Email"
+            />
+            <input
+              type="number"
+              class="form-control mb-3 fs-5 p-2"
+              id="exampleFormControlInput1"
+              placeholder="Phone Number"
+            />
+          </div>
+
+          <div class="col col-md-6">
+            <textarea
+              class="form-control form-control-lg"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+
+          <div class="d-flex justify-content-center ">
+            <button type="button" class="btn btn-danger border-0 rounded-2 fs-4">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid py-5">
+      <p class="text-center">All Rights reserved ©️ 2024</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

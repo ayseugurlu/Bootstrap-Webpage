@@ -13,6 +13,7 @@ body{
 .navbar{
     position: fixed;
     width: 100%;
+    z-index: 5;
 }
 
 .navbar-brand{
@@ -29,9 +30,16 @@ body{
     color: white !important;
 }
 
-..navbar-toggler-icon{
-    color: white !important;
+
+
+
+.navbar-toggler-icon{
+    background-image: url(../list.svg);
+
+    
+    
 }
+
 
 .navbar-nav{
     margin-right: 4.5rem;
@@ -75,7 +83,7 @@ body{
 /* ------------------------ */
 
 .services{
-    height: 90vh;
+    /* height: 90vh; */
 }
 
 .fa-solid{
@@ -87,9 +95,72 @@ body{
 /* ------------------------ */
 
 .portfolio{
-    height: 70vh;
+    /* height: 70vh; */
+    background-color: #F8F9FA;
 }
 .card-img-top{
     width: 100%;
-    height: 150px;
+    height: 200px;
+    
+}
+
+/* ------------------------ */
+/*           ABOUT          */
+/* ------------------------ */
+
+
+.about img{
+    height: 70%;
+
+}
+
+/* ------------------------ */
+/*         OUR TEAM         */
+/* ------------------------ */
+.team{
+    background-color: #F8F9FA;
+}
+.team-members img{
+    border: 10px solid #cccccc;
+    width: 250px;
+}
+
+.social{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    
+
+}
+
+/* ------------------------ */
+/*          CLIENT          */
+/* ------------------------ */
+
+.client img{
+    height: auto;
+    max-height: 50px;
+    vertical-align: middle;
+}
+
+
+
+/* ------------------------ */
+/*          CONTACT         */
+/* ------------------------ */
+
+.contact{
+    background-image: url(../img/map.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.contact textarea{
+    resize: none;
+    height: 170px;
+}
+
+.btn:hover{
+    opacity: 98%;
+
 }
